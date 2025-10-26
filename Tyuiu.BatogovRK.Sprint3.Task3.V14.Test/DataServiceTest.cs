@@ -14,7 +14,7 @@ namespace Tyuiu.BatogovRK.Sprint3.Task3.V14.Test
             char replacement = '’';
 
             string res = ds.ReplaceCharInString(value, replaceable, replacement);
-            string wait = "’gt ghe’’ be’";
+            string wait = "'gt ghe'' be'";
             Assert.AreEqual(wait, res);
         }
     }
