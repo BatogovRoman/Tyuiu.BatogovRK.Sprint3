@@ -5,13 +5,11 @@ namespace Tyuiu.BatogovRK.Sprint3.Task3.V14.Lib
     {
         public string ReplaceCharInString(string value, char replaceable, char replacement)
         {
-            string q = "'";
-            char e = g[0];
             foreach (char c in value)
             {
                 if (c == 'd')
                 {
-                    value = value.Replace(c, e);
+                    value = value.Replace(c, '’');
                 }
             }
             return value;
