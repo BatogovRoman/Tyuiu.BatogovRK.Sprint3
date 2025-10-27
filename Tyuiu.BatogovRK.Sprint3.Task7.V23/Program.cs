@@ -23,7 +23,9 @@ internal class Program
         Console.WriteLine("Конец шага " + stopvalue);
 
         int len = ds.GetMassFunction(startvalue, stopvalue).Length;
+
         double[] valuearray;
+
         valuearray = new double[len];
 
         valuearray = ds.GetMassFunction(startvalue, stopvalue);
@@ -36,6 +38,7 @@ internal class Program
         Console.WriteLine("+----------+----------+");
         Console.WriteLine("|    X     |   f(x)   |");
         Console.WriteLine("+----------+----------+");
+
         for (int i = 0; i<=len-1; i++)
         {
             Console.WriteLine("|{0,5:d}     |  {1,5:f2}   |", startvalue, valuearray[i]);
