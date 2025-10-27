@@ -26,6 +26,7 @@ internal class Program
 
         double[] valuearray;
 
+
         valuearray = new double[len];
 
         valuearray = ds.GetMassFunction(startvalue, stopvalue);
