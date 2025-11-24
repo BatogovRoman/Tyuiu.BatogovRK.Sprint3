@@ -9,7 +9,7 @@ namespace Tyuiu.BatogovRK.Sprint3.Task3.V14.Lib
             {
                 if (c == 'd')
                 {
-                    value = value.Replace(c, '’');
+                    value = value.Replace(c, '\'');
                 }
             }
             return value;
